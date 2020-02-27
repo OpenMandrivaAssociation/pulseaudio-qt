@@ -16,9 +16,10 @@ BuildRequires: cmake(ECM)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5Gui)
 BuildRequires: cmake(Qt5DBus)
+BuildRequires: cmake(Qt5Test)
 BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libpulse-mainloop-glib)
-BuildRequires: doxygen
+BuildRequires: doxygen qt5-assistant
 
 %description
 Qt bindings to the PulseAudio sound system
