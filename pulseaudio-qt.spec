@@ -18,6 +18,7 @@ BuildRequires: cmake(Qt5Gui)
 BuildRequires: cmake(Qt5DBus)
 BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libpulse-mainloop-glib)
+BuildRequires: doxygen
 
 %description
 Qt bindings to the PulseAudio sound system
