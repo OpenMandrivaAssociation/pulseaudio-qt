@@ -5,7 +5,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name:		pulseaudio-qt
-Version:	1.2
+Version:	1.3
 Release:	1
 Source0: http://download.kde.org/%{stable}/pulseaudio-qt/%{name}-%{version}.tar.xz
 Summary: Qt bindings to the PulseAudio sound system
