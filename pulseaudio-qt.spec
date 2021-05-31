@@ -1,4 +1,4 @@
-%define major 2
+%define major 3
 %define libname %mklibname PulseAudioQt %{major}
 %define devname %mklibname PulseAudioQt -d
 %define debug_package %{nil}
@@ -19,17 +19,18 @@ BuildRequires: cmake(Qt5DBus)
 BuildRequires: cmake(Qt5Test)
 BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libpulse-mainloop-glib)
-BuildRequires: doxygen qt5-assistant
+BuildRequires: doxygen
+BuildRequires: qt5-assistant
 
 %description
-Qt bindings to the PulseAudio sound system
+Qt bindings to the PulseAudio sound system.
 
 %package -n %{libname}
 Summary: Qt bindings to the PulseAudio sound system
 Group: System/Libraries
 
 %description -n %{libname}
-Qt bindings to the PulseAudio sound system
+Qt bindings to the PulseAudio sound system.
 
 %package -n %{devname}
 Summary: Development files for PulseAudio Qt bindings
@@ -37,10 +38,10 @@ Group: Development/KDE and Qt
 Requires: %{libname} = %{EVRD}
 
 %description -n %{devname}
-Development files for PulseAudio Qt bindings
+Development files for PulseAudio Qt bindings.
 
 %prep
-%setup -q
+%autosetup -p1
 %cmake_kde5
 
 %build
