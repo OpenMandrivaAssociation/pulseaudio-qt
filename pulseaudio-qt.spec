@@ -1,7 +1,6 @@
 %define major 3
 %define libname %mklibname PulseAudioQt %{major}
 %define devname %mklibname PulseAudioQt -d
-%define debug_package %{nil}
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name:		pulseaudio-qt
