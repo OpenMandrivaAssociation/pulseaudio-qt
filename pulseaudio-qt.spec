@@ -5,7 +5,7 @@
 
 Name:		pulseaudio-qt
 Version:	1.3
-Release:	1
+Release:	2
 Source0: http://download.kde.org/%{stable}/pulseaudio-qt/%{name}-%{version}.tar.xz
 Summary: Qt bindings to the PulseAudio sound system
 URL: http://kde.org/
