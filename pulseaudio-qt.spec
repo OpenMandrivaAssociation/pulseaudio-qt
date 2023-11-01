@@ -31,6 +31,7 @@ BuildRequires:	cmake(Qt6Gui)
 BuildRequires:	cmake(Qt6DBus)
 BuildRequires:	cmake(Qt6Test)
 BuildRequires:	cmake(Qt6Qml)
+BuildRequires:	cmake(Qt6Quick)
 BuildRequires:	pkgconfig(libpulse)
 BuildRequires:	pkgconfig(libpulse-mainloop-glib)
 BuildRequires:	doxygen
