@@ -1,4 +1,4 @@
-%define major 4
+%define major 5
 %define oldlibname %mklibname PulseAudioQt 3
 %define olddevname %mklibname PulseAudioQt -d
 %define libname %mklibname KF5PulseAudioQt
@@ -6,10 +6,10 @@
 %define lib6name %mklibname KF6PulseAudioQt
 %define dev6name %mklibname KF6PulseAudioQt -d
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
-%define git 20231101
+#define git 20231101
 
 Name:		pulseaudio-qt
-Version:	1.4.0
+Version:	1.5.0
 Release:	%{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/libraries/pulseaudio-qt/-/archive/master/pulseaudio-qt-master.tar.bz2#/%{name}-%{git}.tar.bz2
