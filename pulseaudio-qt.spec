@@ -1,4 +1,4 @@
-%define major 4
+%define major 5
 %define oldlibname %mklibname PulseAudioQt 3
 %define olddevname %mklibname PulseAudioQt -d
 %define libname %mklibname KF5PulseAudioQt
