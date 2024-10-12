@@ -9,7 +9,7 @@
 #define git 20231101
 
 Name:		pulseaudio-qt
-Version:	1.5.0
+Version:	1.6.0
 Release:	%{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/libraries/pulseaudio-qt/-/archive/master/pulseaudio-qt-master.tar.bz2#/%{name}-%{git}.tar.bz2
