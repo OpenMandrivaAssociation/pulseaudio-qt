@@ -17,7 +17,7 @@ Source0:	https://invent.kde.org/libraries/pulseaudio-qt/-/archive/master/pulseau
 Source0:	https://download.kde.org/%{stable}/pulseaudio-qt/%{name}-%{version}.tar.xz
 %endif
 Summary:	Qt bindings to the PulseAudio sound system
-URL:		http://kde.org/
+URL:		https://kde.org/
 License:	GPL
 Group:		System/Libraries
 BuildRequires:	cmake(ECM)
